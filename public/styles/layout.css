@@ -15,9 +15,17 @@ html {
  */
 
 body {
+  font-family: 'Roboto Condensed', sans-serif;
   margin: 0;
   color: #244751;
   background-color: #eee;
+}
+
+main.container {
+  width: 450px;
+  background-color: white;
+  margin: 80px auto auto auto;
+  padding: 2em;
 }
 
 /*
