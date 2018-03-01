@@ -16,6 +16,15 @@ hr {
   border-width: 2px;
 }
 
+.tweet .hover-btns{
+  display: none;
+}
+
+.tweet:hover .hover-btns{
+  display: block;
+}
+
+
 .container .new-tweet h2{
   margin: 0;
 }
@@ -26,3 +35,9 @@ hr {
 .container .new-tweet form .counter{
   float: right;
 }
+
+.container #error-message{
+  margin: 0;
+  color: red;
+}
+

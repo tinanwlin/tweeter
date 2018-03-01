@@ -1,3 +1,7 @@
+#tweets .tweet{
+  margin-bottom: 10px;
+}
+
 .tweet .tweet-header {
   background-color: #eeeeee;
   border: 2px solid #dddddd;
