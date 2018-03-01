@@ -3,6 +3,7 @@ section.new-tweet{
   border: 2px solid #dddddd;
   padding: 20px; 
   background-color: #eeeeee;
+  margin-bottom: 15px;
 }
 
 hr { 
