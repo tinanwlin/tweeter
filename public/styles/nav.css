@@ -23,15 +23,18 @@
 }
 
 #nav-bar .compose-btn{
-  width: 80px; 
-  height: 80px;
+  width: 130px;
+  border-radius: 11px;
+  margin: 8px 25px;
+  height: 65px;
+  border: 2px solid #808080;
   float: right;
-  background-color: #dddddd;
+  background-color: #e6ffff;
 }
 
 #nav-bar .compose-btn:hover{
-  width: 80px; 
-  height: 80px;
+  width: 130px; 
+  height: 65px;
   float: right;
-  background-color: #aaaaaa;
+  background-color: #ffffff;
 }
