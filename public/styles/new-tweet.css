@@ -4,6 +4,7 @@ section.new-tweet{
   padding: 20px; 
   background-color: #eeeeee;
   margin-bottom: 15px;
+  display: none;
 }
 
 hr { 
@@ -14,14 +15,6 @@ hr {
   border-style: inset;
   margin-top: 0px;
   border-width: 2px;
-}
-
-.tweet .hover-btns{
-  display: none;
-}
-
-.tweet:hover .hover-btns{
-  display: block;
 }
 
 

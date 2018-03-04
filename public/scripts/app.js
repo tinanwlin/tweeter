@@ -12,14 +12,14 @@ $(function () {
     var tweetHTML = '\
        <article class="tweet">\
         <header class="tweet-header">\
-          <img class="avatar" src=" '+ escape(data.user.avatars.small) + '" alt="">\
+          <img class="avatar" src=" '+ escape(data.user.avatars.small) + '">\
           <h3>'+ escape(data.user.name) + '</h3>\
           <p>'+ escape(data.user.handle) + '</p>\
         </header>\
         <div class="tweet-content"> '+ escape(data.content.text) + '</div>\
         <footer class="tweet-footer">\
           <p>'+ escape(dateFromNow) + '</p>\
-          <div class="hover-btns hide">\
+          <div class="hover-btns">\
             <i class="fas fa-flag"></i>\
             <i class="fas fa-retweet"></i>\
             <i class="fas fa-heart"></i>\
@@ -55,6 +55,7 @@ $(function () {
         $('.new-tweet textarea').val('');
         $('.counter').text(140);
         $("#error-message").text('');
+        $("section.new-tweet").hide();
       })
     }
   });

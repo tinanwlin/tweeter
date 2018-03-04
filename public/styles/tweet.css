@@ -53,9 +53,16 @@
   margin: 0;
 }
 
+.tweet .hover-btns{
+  display: none;
+}
+
 .tweet .tweet-footer .hover-btns{
   color: DarkTurquoise;
   float: right;
 }
 
+.tweet:hover .hover-btns{
+  display: block;
+}
 
